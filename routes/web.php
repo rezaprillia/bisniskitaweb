@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/modal', function () {
+    return view('modal');
+});
+
 Route::get('/landing', function () {
     return view('landing');
 });
