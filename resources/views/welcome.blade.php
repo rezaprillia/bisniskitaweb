@@ -58,8 +58,7 @@
     <div class="row">
        <div class="intro-container wow fadeIn">
       <h1 class="mb-4 pb-0"><span>Bisnis</span>Kita</h1>
-      <p class="mb-4 pb-0">Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit<br>Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit<br><a href="#about" class="joinn-btn scrollto">Gabung Sekarang!</a></p>
-
+      <p class="mb-4 pb-0">BisnisKita adalah platform belajar <br>bisnis & finansial terlengkap<br>di Indonesia<br><a href="#about" class="joinn-btn scrollto">Gabung Sekarang!</a></p>
       <div class="countdownme">
         <div class="flex-w flex-c-m cd100 wsize1 m-lr-auto p-t-116">
           <div class="flex-col-c-m size2 bor1 m-l-10 m-r-10 m-b-15">
@@ -127,27 +126,27 @@
 
         <div class="row">
          <div class="col-lg-4 col-md-6">
-            <h3><a href="#">Keunggulan 1</a></h3>
+            <h3><a href="#">Konten Lengkap</a></h3>
               <div class="hotel-img">
                 <img src="img/unggul1.jpg" alt="Hotel 3" class="img-fluid">
               </div>
-              <p><br>Peserta berlatih dengan temponya sendiri. Mereka mulai dengan memahami hal-hal yang belum mereka mengerti, lalu mempercepat pembelajaran.</p>
+              <p><br>Tersedia berbagai macam modul dalam lingkup bisnis dan finasial yang langsung dipandu oleh para pakar di bidang bisnis</p>
           </div>
 
           <div class="col-lg-4 col-md-6">
-            <h3><a href="#">Keunggulan 2</a></h3>
+            <h3><a href="#">Pembimbingan Komprehensif</a></h3>
               <div class="hotel-img">
                 <img src="img/unggul2.jpg" alt="Hotel 3" class="img-fluid">
               </div>
-              <p><br>Disusun oleh para pakar, perpustakaan latihan, dan praktik yang tepercaya di BisnisKita meliputi matematika, sains, dan lainnya. Selalu gratis untuk siswa dan guru.</p>
+              <p><br>Pengguna akan dibimbing sekaligus diawasi dalam proses belajar mulai dari nol, diharapkan melaui metode ini penguna tidak hanya berhenti sampai level belajar, namun hingga level memahami.</p>
           </div>
 
           <div class="col-lg-4 col-md-6">
-            <h3><a href="#">Keunggulan 3</a></h3>
+            <h3><a href="#">Metode Terstruktur</a></h3>
               <div class="hotel-img">
                 <img src="img/unggul3.jpg" alt="Hotel 3" class="img-fluid">
               </div>
-              <p><br>Bersama BisnisKita, guru dapat mengidentifikasi hal-hal yang belum dimengerti siswa mereka, menyesuaikan instruksi, dan memenuhi kebutuhan setiap siswa.</p>
+              <p><br>Metode pengajaran yang diberikan merupakan best practice yang telah teruji selama bertahun-tahun yang diterapkan oleh para pakar di bidang bisnis dan finasial.</p>
           </div>
 
         </div>
@@ -196,7 +195,7 @@
           </div>
 ----->
 
-          <div class="col-lg-3 col-md-6 footer-contact">
+          <div class="col-lg-3 col-md-6">
             <div class="social-links">
               <a href="https://twitter.com/bisniskita?lang=en" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a>
               <a href="http://www.facebook.com/bisniskitadotcom" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a>

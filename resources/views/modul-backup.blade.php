@@ -21,79 +21,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <!-- Custom styles for this template-->
   <link href="css/admin-style.css" rel="stylesheet">
-  
   <style>
-  .button {
-  font-size: 1em;
-  padding: 10px;
-  color: #fff;
-  border: 2px solid #06D85F;
-  border-radius: 20px/50px;
-  text-decoration: none;
-  cursor: pointer;
-  transition: all 0.3s ease-out;
-}
-.button:hover {
-  background: #06D85F;
-}
-
-.overlay {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.7);
-  transition: opacity 500ms;
-  visibility: hidden;
-  opacity: 0;
-}
-.overlay:target {
-  visibility: visible;
-  opacity: 1;
-}
-
-.popup {
-  margin: 70px auto;
-  padding: 20px;
-  background: #fff;
-  border-radius: 5px;
-  width: 30%;
-  position: relative;
-  transition: all 5s ease-in-out;
-}
-
-.popup h2 {
-  margin-top: 0;
-  color: #333;
-  font-family: Tahoma, Arial, sans-serif;
-}
-.popup .close {
-  position: absolute;
-  top: 20px;
-  right: 30px;
-  transition: all 200ms;
-  font-size: 30px;
-  font-weight: bold;
-  text-decoration: none;
-  color: #333;
-}
-.popup .close:hover {
-  color: #06D85F;
-}
-.popup .content {
-  max-height: 30%;
-  overflow: auto;
-}
-
-@media screen and (max-width: 700px){
-  .box{
-    width: 70%;
-  }
-  .popup{
-    width: 70%;
-  }
-}
  
   </style>
 </head>
@@ -267,7 +195,7 @@
                 </div>
                 <div class="card-body">
                     <div class="text-center">
-                    <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="img/modul/modul1.jpg" alt="">
+                    <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="img/modul1.jpg" alt="">
                     </div>
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
@@ -295,22 +223,13 @@
                         </div>
                         <div class="modal-body" style="padding:40px 50px;">
                           <p>Dapatkan modul sekarang juga! Pilih mode Anda :</p>
-                           <button type="button" class="btn btn-primary" name="answer" value="Show Div" onclick="showDiv()">Beli dengan harga diskon</button>
-                          <button type="button" class="btn btn-secondary" name="answer" value="Show Div" onclick="showDivGratis()">Dapatkan gratis</button>
-                          <div id="welcomeDiv"  style="display:none;" class="answer_list" > 
-                            <strong><br>ID Tagihan 001</strong><br>Tagihan pembayaran kamu berhasil dibuat. Saat ini status pembayaran kamu sedang menunggu pembayaran.</p>
-                            <p>Silahkan lakukan pembayaran pada nomor rekening berikut 0896875764 atas nama David Ridwan. Terimakasih.</p>
-                          </div>
-                          <div id="gratis"  style="display:none;" class="answer_list" > 
-                            <p><br>Selamat! Anda telah mendapatkan tiket gratis untuk modul ini.</p>
-                          </div>
+                          <button type="button" class="btn btn-primary">Beli dengan harga diskon</button>
+                          <button type="button" class="btn btn-secondary">Dapatkan gratis</button>
                         </div>
                         <div class="modal-footer">
                           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                         </div>
                       </div>
-
-                      <div id="welcomeDiv"  style="display:none;" class="answer_list" > WELCOME</div>
 
                     </div>
                   </div>
@@ -402,16 +321,6 @@
   <!-- Page level custom scripts -->
   <script src="js/demo/chart-area-demo.js"></script>
   <script src="js/demo/chart-pie-demo.js"></script>
-
-  <script>
-    function showDiv() {
-        document.getElementById('welcomeDiv').style.display = "block";
-    }
-
-    function showDivGratis() {
-        document.getElementById('gratis').style.display = "block";
-    }
-  </script>
 
 
 </body>
